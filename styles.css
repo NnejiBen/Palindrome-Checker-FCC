@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #0a0a23;
+  --white: #ffffff;
+  --purple: #5a01a7;
+  --green: #00471B;
+  --blue: #041E71;
+}
+
+body {
+  background-color: var(--dark-grey);
+  padding: 5%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {  
+  width: 40%; 
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+main {
+    width: 95%; 
+}
+      
+}
+
+.logo-container {
+  margin-bottom: 2rem;
+}
+
+h1 { 
+  color: var(--white);
+  margin-bottom: 2rem; 
+}
+
+.checker-container {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 1.5rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 16px;
+  border-bottom: 8px solid var(--blue);
+  margin-bottom: 1.5rem;
+}
+
+.input-and-btn-cont {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid var(--purple);
+  padding: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  background: var(--purple);
+  color: var(--white);
+  padding: 8px 24px;
+  border-radius: 14px;
+  border: none;
+}
+
+#result {
+  font-size: 1.2rem;
+}
+
+.definition-container {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.2rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 16px;
+}
