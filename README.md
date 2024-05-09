@@ -9,6 +9,9 @@ This is one of the required projects (the first) to earn my certification. I bui
 https://nnejiben.github.io/Palindrome-Checker-FCC/
 
 ## Other Information:
+
+Objective: Build an app that is functionally similar to https://palindrome-checker.freecodecamp.rocks
+
 Course title: JavaScript Algorithms and Data Structures (Beta)
 
 Course link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
